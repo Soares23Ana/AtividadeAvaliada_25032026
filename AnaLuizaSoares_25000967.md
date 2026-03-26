@@ -17,7 +17,6 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 ---
 
 # 2. Regras de Negócio (mínimo: 5)
-Liste e descreva **cada RN** de forma clara.
 
 **RN01** — **Venda de receita controlada:** Medicamentos de controle especial só poderão ser vendidos mediante validação e retenção da receita adequada.
 
@@ -34,7 +33,6 @@ Liste e descreva **cada RN** de forma clara.
 ---
 
 # 3. Requisitos Funcionais (mínimo: 8)
-Liste os requisitos funcionais do seu MVP.
 
 **RF01** — O sistema deve realizar o cadastro de produtos com os dados fundamentais: descrição, preço, fabricante e lote.
 
@@ -57,7 +55,6 @@ Liste os requisitos funcionais do seu MVP.
 ---
 
 # 🛡 4. Requisitos Não Funcionais (mínimo: 4)
-Liste os RNFs do sistema conforme seu MVP.
 
 **RNF01 —**Sincronização de dados:** O sistema deve atualizar a base de dados após qualquer alteração de estoque.
 
