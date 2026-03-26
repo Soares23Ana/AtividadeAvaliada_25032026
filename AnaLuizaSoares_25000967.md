@@ -161,7 +161,7 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 **Pós-condições:** Informação de saldo e localização do item exibida na tela.
 
 ### Fluxo Principal
-1. Usuário digita o nome ou bipar o código do produto.
+1. Usuário digita o nome ou o código do produto.
 2. Sistema consulta o saldo atual na unidade local.
 3. Sistema exibe a quantidade disponível e o preço unitário.
 
@@ -204,7 +204,7 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 **Ator(es):** Atendente
 
-**Descrição:** Inclusão de novos clientes na base de dados para histórico e convênios.
+**Descrição:** Inclusão de novos clientes na base de dados para histórico.
 
 **Pré-condições:** CPF do cliente não cadastrado previamente.
 
