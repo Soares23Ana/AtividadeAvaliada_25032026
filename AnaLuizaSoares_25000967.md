@@ -138,7 +138,7 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 1. Usuário insere login e senha na tela inicial.
 2. Sistema criptografa a senha e compara com a base de dados.
 3. Sistema identifica o perfil do usuário (Atendente, Farmacêutico, Gerente, etc.).
-4; Sistema libera o menu principal correspondente às permissões do perfil.
+4. Sistema libera o menu principal correspondente às permissões do perfil.
 
 ### Fluxos Alternativos / Exceções
 - FA01 — Credenciais inválidas: Sistema nega o acesso e solicita nova tentativa.
