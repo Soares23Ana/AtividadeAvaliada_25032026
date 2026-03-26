@@ -36,11 +36,11 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 **RF01** — O sistema deve realizar o cadastro de produtos com os dados fundamentais: descrição, preço, fabricante e lote.
 
-**RF02** — O sistema deve pesquisar os produtos por código de barras ou nome para um melhor atendimento. 
+**RF02** — O sistema deve utilizar o código de barras ou nome para pesquisar os produtos.
 
-**RF03** — O sistema deve registrar vendas conectando produtos, quantidades e vendedor.  
+**RF03** — O sistema deve conectar produtos, quantidades e vendedor ao registrar vendas.
 
-**RF04** — O sistema deve realizar o cadastro rápido de novos clientes no ato da venda.  
+**RF04** — O sistema deve cadastrar rapidamente novos clientes no ato da venda.  
 
 **RF05** — O sistema deve gerar automaticamente lançamentos em Contas a Receber para vendas a prazo.  
 
@@ -85,9 +85,9 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 **UC08** — Registrar Entrada de Mercadoria
 
-**UC09** - Realizar Lançamento Financeiro
+**UC09** — Realizar Lançamento Financeiro
 
-**UC10** - Gerar Relatório de Vendas
+**UC10** — Gerar Relatório de Vendas
 
 <img width="1206" height="831" alt="image" src="https://github.com/user-attachments/assets/2c2a4e04-cfdb-4618-80ba-c6b517b6fbce" />
 
@@ -95,9 +95,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 # 6. Documentação dos Casos de Uso
 **UC01 — Realizar Venda**
+
 **Ator(es):** Atendente
+
 **Descrição:** Registrar a venda de produtos para o cliente e processar o pagamento.
+
 **Pré-condições:** Usuário verificado e produtos disponíveis em estoque.
+
 **Pós-condições:** Estoque atualizado e venda registrada no banco de dados.
 
 ### Fluxo Principal
@@ -121,9 +125,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 ---
 
 **UC02 — Autenticar Usuário**
+
 **Ator(es):** Todos os Atores
+
 **Descrição:** Validação de credenciais para acesso às atividades do sistema de acordo com o perfil.
+
 **Pré-condições:** Sistema operacional e banco de dados ativos.
+
 **Pós-condições:** Usuário com sessão ativa e permissões de acesso liberadas.
 
 ### Fluxo Principal
@@ -143,9 +151,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC03 — Consultar Estoque**
+
 **Ator(es):** Atendente e Gerente
+
 **Descrição:** Verificação da quantidade disponível de um item em tempo real.
+
 **Pré-condições:** Produto cadastrado no sistema.
+
 **Pós-condições:** Informação de saldo e localização do item exibida na tela.
 
 ### Fluxo Principal
@@ -164,9 +176,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC04 — Emitir Comprovante**
+
 **Ator(es):** Atendente
+
 **Descrição:** Geração de documento físico ou digital com o resumo da transação.
+
 **Pré-condições:** Venda finalizada com sucesso.
+
 **Pós-condições:** Cupom impresso ou enviado ao cliente.
 
 ###  Fluxo Principal
@@ -185,9 +201,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC05 — Cadastrar Cliente**
+
 **Ator(es):** Atendente
+
 **Descrição:** Inclusão de novos clientes na base de dados para histórico e convênios.
+
 **Pré-condições:** CPF do cliente não cadastrado previamente.
+
 **Pós-condições:** Cadastro criado no banco de dados.
 
 ### Fluxo Principal
@@ -206,9 +226,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC06 — Validar Receita Médica**
+
 **Ator(es):** Farmacêutico
+
 **Descrição:** Conferência de receitas para liberação de medicamentos controlados.
+
 **Pré-condições:** Item de venda classificado como "Controlado".
+
 **Pós-condições:** Autorização registrada e vinculada à venda.
 
 ### Fluxo Principal
@@ -227,9 +251,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC07 — Aplicar Desconto Especial**
+
 **Ator(es):** Gerente
+
 **Descrição:** Autorização de preços abaixo da margem padrão do sistema.
+
 **Pré-condições:** Solicitação de desconto superior ao limite do atendente.
+
 **Pós-condições:** Valor da venda recalculado com o novo desconto.
 
 ### Fluxo Principal
@@ -248,9 +276,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC08 — Registrar Entrada de Mercadoria**
+
 **Ator(es):** Gerente
+
 **Descrição:** Atualização de estoque e custos a partir de compras de fornecedores.
+
 **Pré-condições:** Usuário autenticado como Gerente.
+
 **Pós-condições:** Saldos de estoque atualizados.
 
 ### Fluxo Principal
@@ -269,9 +301,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC09 — Realizar Lançamento Financeiro**
+
 **Ator(es):** Setor Financeiro
+
 **Descrição:** Registro de contas a pagar e receber.
+
 **Pré-condições:** Usuário autenticado e venda a prazo ou compra.
+
 **Pós-condições:** Título financeiro registrado com data de vencimento e status.
 
 ### Fluxo Principal
@@ -290,9 +326,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 ---
 **UC10 — Gerar Relatório de Vendas**
+
 **Ator(es):** Gerente e Administrador
+
 **Descrição:** Apresentação de dados de vendas para análise gerencial.
+
 **Pré-condições:** Usuário autenticado e existência de vendas no período selecionado.
+
 **Pós-condições:** Relatório exibido em tela ou exportado.
 
 ### Fluxo Principal
