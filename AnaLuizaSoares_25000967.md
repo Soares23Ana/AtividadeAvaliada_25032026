@@ -19,15 +19,15 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 # 2. Regras de Negócio (mínimo: 5)
 Liste e descreva **cada RN** de forma clara.
 
-**RN01** —**Venda de receita controlada:** Medicamentos de controle especial só poderão ser vendidos mediante validação e retenção da receita adequada.
+**RN01** — **Venda de receita controlada:** Medicamentos de controle especial só poderão ser vendidos mediante validação e retenção da receita adequada.
 
-**RN02** —**Estoque Mínimo:** O sistema deve emitir um alerta visual ao gerente quando o saldo de um produto atingir o limite definido.  
+**RN02** — **Estoque Mínimo:** O sistema deve emitir um alerta visual ao gerente quando o saldo de um produto atingir o limite definido.  
 
-**RN03** —**Saída de mercadoria:** Qualquer venda, perda ou devolução de produto deverá ter baixa automática em tempo real.  
+**RN03** — **Saída de mercadoria:** Qualquer venda, perda ou devolução de produto deverá ter baixa automática em tempo real.  
 
-**RN04** —**Vendas a Prazo:** Somente clientes devidamente cadastrados e sem débitos atrasados poderão realizar compras a prazo
+**RN04** — **Vendas a Prazo:** Somente clientes devidamente cadastrados e sem débitos atrasados poderão realizar compras a prazo
 
-**RN05** —**Bloqueio de venda sem estoque:** O sistema deverá impedir a compra de produtos sem saldo disponível   
+**RN05** — **Bloqueio de venda sem estoque:** O sistema deverá impedir a compra de produtos sem saldo disponível   
 
 
 
