@@ -24,9 +24,9 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 **RN03** — **Saída de mercadoria:** Qualquer venda, perda ou devolução de produto deverá ter baixa automática em tempo real.  
 
-**RN04** — **Vendas a Prazo:** Somente clientes devidamente cadastrados e sem débitos atrasados poderão realizar compras a prazo
+**RN04** — **Vendas a Prazo:** Somente clientes devidamente cadastrados e sem débitos atrasados poderão realizar compras a prazo.
 
-**RN05** — **Bloqueio de venda sem estoque:** O sistema deverá impedir a compra de produtos sem saldo disponível   
+**RN05** — **Bloqueio de venda sem estoque:** O sistema deverá impedir a compra de produtos sem saldo disponível.
 
 
 
