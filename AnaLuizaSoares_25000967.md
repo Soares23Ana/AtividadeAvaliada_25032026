@@ -56,13 +56,13 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 # 🛡 4. Requisitos Não Funcionais (mínimo: 4)
 
-**RNF01 —**Sincronização de dados:** O sistema deve atualizar a base de dados após qualquer alteração de estoque.
+**RNF01 — **Sincronização de dados:** O sistema deve atualizar a base de dados após qualquer alteração de estoque.
 
-**RNF02 —**Retenção de Dados das Receitas:** O sistema deve manter o registro das receitas autorizadas conforme legislação vigente.
+**RNF02 — **Retenção de Dados das Receitas:** O sistema deve manter o registro das receitas autorizadas conforme legislação vigente.
 
-**RNF03 —**Estabilidade:** O sistema deve aguentar o funcionamento contínuo de 24h em todos os dias da semana.
+**RNF03 — **Estabilidade:** O sistema deve aguentar o funcionamento contínuo de 24h em todos os dias da semana.
 
-**RNF04 —**Impressão de Comprovante:** O sistema deve emitir de forma rápida o cupom de venda.  
+**RNF04 — **Impressão de Comprovante:** O sistema deve emitir de forma rápida o cupom de venda.  
 
 
 ---
@@ -86,6 +86,7 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 **UC08** — Registrar Entrada de Mercadoria
 
 **UC09** - Realizar Lançamento Financeiro
+
 **UC10** - Gerar Relatório de Vendas
 
 <img width="1206" height="831" alt="image" src="https://github.com/user-attachments/assets/2c2a4e04-cfdb-4618-80ba-c6b517b6fbce" />
