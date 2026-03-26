@@ -44,7 +44,7 @@ O foco será na resolução da dessincronização entre setores, garantindo que 
 
 **RF05** — O sistema deve gerar automaticamente lançamentos em Contas a Receber para vendas a prazo.  
 
-**RF06** — O sistema deve atualizar o estoque automaticamente após a venda ser completada (pagamento) 
+**RF06** — O sistema deve atualizar o estoque automaticamente após a venda ser completada (pagamento). 
 
 **RF07** — O sistema deve permitir registro de autorização de receitas pelo farmacêutico. 
 
